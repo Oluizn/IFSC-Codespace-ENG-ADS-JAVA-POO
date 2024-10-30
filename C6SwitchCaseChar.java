@@ -9,7 +9,7 @@ public class C6SwitchCaseChar {
        char conceito = scanner.next().charAt(0); 
 //pra aceitar o minusculo e maiusculo char conceito = Character.toUpperCase(scanner.next().charAt(0));
       
-       switch(conceito) {
+       switch(Character.toUpperCase(conceito)) {
            case 'A': // ou pode colocar embaixo case 'a': pra aceitar ambos tamanhos
                System.out.println("Otimo");
                break;

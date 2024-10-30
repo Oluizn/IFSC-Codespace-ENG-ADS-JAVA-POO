@@ -10,21 +10,19 @@ public class C5SwitchCaseInt {
         System.out.println("3- Lista 3");
         
         int lista = scanner.nextInt();
-        
-        switch(lista) {
-            case 1:
-                System.out.println("Voce escolheu 1");
-                break;
-            case 2:
-                System.out.println("Voce escolheu 2");
-                break;
-            case 3:
-                System.out.println("Voce escolheu 3");
-                break;
-            default:
-                System.out.println("Opcao invalida");
-        }
-        
+            switch(lista) {
+                case 1:
+                    System.out.println("Voce escolheu 1");
+                    break;
+                case 2:
+                    System.out.println("Voce escolheu 2");
+                    break;
+                case 3:
+                    System.out.println("Voce escolheu 3");
+                    break;
+                default:
+                    System.out.println("Opcao invalida");
+            }        
         scanner.close();
     }
 }
